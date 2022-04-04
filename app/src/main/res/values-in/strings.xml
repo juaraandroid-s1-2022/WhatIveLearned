@@ -8,4 +8,5 @@
     <string name="main_page_btn_unit_four">Unit 4: Terhubung ke internet</string>
     <string name="main_page_btn_unit_five">Unit 5: Persistensi data</string>
     <string name="main_page_btn_unit_six">Unit 6: WorkManager</string>
+    <string name="main_page_fab_change_locale">Ganti ke Bahasa Inggris</string>
 </resources>
