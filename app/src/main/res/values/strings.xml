@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">What I\'ve Learned</string>
+    <string name="main_page_title">What I\'ve Learned?\n(JuaraAndroid Edition)</string>
+    <string name="main_page_btn_unit_one">Unit 1: Kotlin Basics</string>
+    <string name="main_page_btn_unit_two">Unit 2: Layouts</string>
+    <string name="main_page_btn_unit_three">Unit 3: Navigation</string>
+    <string name="main_page_btn_unit_four">Unit 4: Connect to the Internet</string>
+    <string name="main_page_btn_unit_five">Unit 5: Data persistence</string>
+    <string name="main_page_btn_unit_six">Unit 6: WorkManager</string>
+</resources>
