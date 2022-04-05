@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Yang sudah saya pelajari</string>
-    <string name="main_page_title">Apa yang sudah saya pelajari?\nJuaraAndroid Edition</string>
+    <string name="main_page_title">Apa yang sudah saya pelajari?\nEdisi JuaraAndroid</string>
     <string name="main_page_btn_unit_one">Unit 1: Dasar Kotlin</string>
     <string name="main_page_btn_unit_two">Unit 2: Tata letak</string>
     <string name="main_page_btn_unit_three">Unit 3: Navigasi</string>
