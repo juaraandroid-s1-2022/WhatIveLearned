@@ -18,7 +18,6 @@ class ContextUtils(base: Context?) : ContextWrapper(base) {
 				
 				LocaleList.setDefault(localeList)
 				configuration.setLocales(localeList)
-				
 			} else {
 				configuration.locale = localeToSwitchTo
 				resources.updateConfiguration(configuration, resources.displayMetrics)
