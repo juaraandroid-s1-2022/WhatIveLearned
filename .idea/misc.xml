@@ -4,8 +4,14 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Development/Workspaces/WhatIveLearned/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Development/Workspaces/WhatIveLearned/app/src/main/res/layout/activity_unit1.xml" value="0.36666666666666664" />
+        <entry key="..\:/Development/Workspaces/WhatIveLearned/app/src/main/res/layout/activity_unit2.xml" value="0.36666666666666664" />
+        <entry key="..\:/Development/Workspaces/WhatIveLearned/app/src/main/res/layout/activity_unit3.xml" value="0.36666666666666664" />
+        <entry key="..\:/Development/Workspaces/WhatIveLearned/app/src/main/res/layout/activity_unit4.xml" value="0.36666666666666664" />
+        <entry key="..\:/Development/Workspaces/WhatIveLearned/app/src/main/res/layout/activity_unit5.xml" value="0.36666666666666664" />
+        <entry key="..\:/Development/Workspaces/WhatIveLearned/app/src/main/res/layout/activity_unit6.xml" value="0.36666666666666664" />
+        <entry key="..\:/Development/Workspaces/WhatIveLearned/app/src/main/res/layout/rounded_button.xml" value="0.36666666666666664" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.360101318359375" />
-        <entry key="app/src/main/res/layout/activity_unit1.xml" value="0.2368659420289855" />
       </map>
     </option>
   </component>

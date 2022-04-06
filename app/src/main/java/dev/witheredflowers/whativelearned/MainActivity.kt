@@ -43,6 +43,41 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this@MainActivity, Unit1::class.java)
             startActivity(intent)
         }
+        
+        // Unit 2 Button Event
+        val btnUnit2: Button = findViewById(R.id.btnUnitTwo)
+        btnUnit2.setOnClickListener {
+            val intent = Intent(this@MainActivity, Unit2::class.java)
+            startActivity(intent)
+        }
+        
+        // Unit 3 Button Event
+        val btnUnit3: Button = findViewById(R.id.btnUnitThree)
+        btnUnit3.setOnClickListener {
+            val intent = Intent(this@MainActivity, Unit3::class.java)
+            startActivity(intent)
+        }
+        
+        // Unit 4 Button Event
+        val btnUnit4: Button = findViewById(R.id.btnUnitFour)
+        btnUnit4.setOnClickListener {
+            val intent = Intent(this@MainActivity, Unit4::class.java)
+            startActivity(intent)
+        }
+        
+        // Unit 5 Button Event
+        val btnUnit5: Button = findViewById(R.id.btnUnitFive)
+        btnUnit5.setOnClickListener {
+            val intent = Intent(this@MainActivity, Unit5::class.java)
+            startActivity(intent)
+        }
+        
+        // Unit 6 Button Event
+        val btnUnit6: Button = findViewById(R.id.btnUnitSix)
+        btnUnit6.setOnClickListener {
+            val intent = Intent(this@MainActivity, Unit6::class.java)
+            startActivity(intent)
+        }
     }
 
     @SuppressLint("NewApi")

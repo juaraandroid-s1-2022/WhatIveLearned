@@ -36,6 +36,8 @@
             android:id="@+id/btnUnitOne"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/rounded_button"
             android:text="@string/main_page_btn_unit_one"
             android:textAllCaps="false" />
 
@@ -43,6 +45,8 @@
             android:id="@+id/btnUnitTwo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/rounded_button"
             android:text="@string/main_page_btn_unit_two"
             android:textAllCaps="false" />
 
@@ -50,6 +54,8 @@
             android:id="@+id/btnUnitThree"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/rounded_button"
             android:text="@string/main_page_btn_unit_three"
             android:textAllCaps="false" />
 
@@ -57,6 +63,8 @@
             android:id="@+id/btnUnitFour"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/rounded_button"
             android:text="@string/main_page_btn_unit_four"
             android:textAllCaps="false" />
 
@@ -64,6 +72,8 @@
             android:id="@+id/btnUnitFive"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/rounded_button"
             android:text="@string/main_page_btn_unit_five"
             android:textAllCaps="false" />
 
@@ -71,6 +81,7 @@
             android:id="@+id/btnUnitSix"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@drawable/rounded_button"
             android:text="@string/main_page_btn_unit_six"
             android:textAllCaps="false" />
     </LinearLayout>
@@ -81,8 +92,8 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="16dp"
         android:clickable="true"
-        android:focusable="true"
         android:contentDescription="@string/main_page_fab_change_locale"
+        android:focusable="true"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout"
