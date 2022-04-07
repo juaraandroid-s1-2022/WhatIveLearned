@@ -28,9 +28,37 @@
     <string name="unit_2_text_apps">Apps yang dibuat dalam unit ini</string>
     <string name="unit_2_text_apps_1">- Proyek: Aplikasi Dogglers</string>
     <string name="unit_2_button_apps_1">Demo</string>
-    <string name="unit_3_text_title">Unit 3: Navigasi</string>
     <!-- Unit 3 -->
+    <string name="unit_3_text_title">Unit 3: Navigasi</string>
+    <string name="unit_3_text_pathways">Terdiri dari 4 Bagian</string>
+    <string name="unit_3_text_pathways_1">1. Navigasi antar layar</string>
+    <string name="unit_3_text_pathways_2">2. Perkenalan komponen Navigasi</string>
+    <string name="unit_3_text_pathways_3">3. Arsitektur komponen</string>
+    <string name="unit_3_text_pathways_4">4. Contoh aplikasi Navigasi lanjutan</string>
+    <string name="unit_3_text_apps">Apps yang dibuat dalam unit ini</string>
+    <string name="unit_3_text_apps_1">- Proyek: Aplikasi Lunch Tray</string>
+    <string name="unit_3_button_apps_1">Demo</string>
     <!-- Unit 4 -->
+    <string name="unit_4_text_title">Unit 4: Terhubung dengan internet</string>
+    <string name="unit_4_text_pathways">Terdiri dari 2 bagian</string>
+    <string name="unit_4_text_pathways_1">1. Coroutines</string>
+    <string name="unit_4_text_pathways_2">2. Mengambil data dari internet</string>
+    <string name="unit_4_text_apps">Apps yang dibuat dalam unit ini</string>
+    <string name="unit_4_text_apps_1">- Proyek: Aplikasi Amphibians</string>
+    <string name="unit_4_button_apps_1">Demo</string>
     <!-- Unit 5 -->
+    <string name="unit_5_text_title">Unit 5: Persistensi data</string>
+    <string name="unit_5_text_pathways">Terdiri dari 2 Bagian</string>
+    <string name="unit_5_text_pathways_1">1. Perkenalan SQL, Room, dan Flow</string>
+    <string name="unit_5_text_pathways_2">2. Penggunaan Room untuk persistensi data</string>
+    <string name="unit_5_text_apps">Apps yang dibuat dalam unit ini</string>
+    <string name="unit_5_text_apps_1">- Proyek: Aplikasi Forage</string>
+    <string name="unit_5_button_apps_1">Demo</string>
     <!-- Unit 6 -->
+    <string name="unit_6_text_title">Unit 6: WorkManager</string>
+    <string name="unit_6_text_pathways">Terdiri dari 1 Bagian</string>
+    <string name="unit_6_text_pathways_1">1. Menjadwalkan tugas dengan WorkManager</string>
+    <string name="unit_6_text_apps">Apps yang dibuat dalam unit ini</string>
+    <string name="unit_6_text_apps_1">- Proyek: Aplikasi Water Me!</string>
+    <string name="unit_6_button_apps_1">Demo</string>
 </resources>

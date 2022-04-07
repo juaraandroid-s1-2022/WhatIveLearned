@@ -61,4 +61,11 @@
     <string name="unit_6_text_apps">Apps created in this unit</string>
     <string name="unit_6_text_apps_1">- Project: Water Me! App</string>
     <string name="unit_6_button_apps_1">Demo</string>
+    <!-- Project: Lemonade -->
+    <string name="app_name_lemonade" translatable="false">Lemonade</string>
+    <string name="lemon_select" translatable="false">Click to select a lemon!</string>
+    <string name="lemon_squeeze" translatable="false">Click to juice the lemon!</string>
+    <string name="lemon_drink" translatable="false">Click to drink your lemonade!</string>
+    <string name="lemon_empty_glass" translatable="false">Click to start again!</string>
+    <string name="squeeze_count" translatable="false">Squeeze count: %1$d, keep squeezing!</string>
 </resources>

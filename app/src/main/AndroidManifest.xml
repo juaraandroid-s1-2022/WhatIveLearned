@@ -10,6 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.WhatIveLearned">
         <activity
+            android:name=".lemonade.MainActivity"
+            android:theme="@style/Theme.Lemonade"
+            android:exported="false" />
+        <activity
             android:name=".Unit6"
             android:exported="false" />
         <activity
