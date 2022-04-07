@@ -9,6 +9,7 @@
     <string name="main_page_btn_unit_five">Unit 5: Data persistence</string>
     <string name="main_page_btn_unit_six">Unit 6: WorkManager</string>
     <string name="main_page_fab_change_locale">Change Locale to Indonesia</string>
+    <!-- Unit 1-->
     <string name="unit_1_text_title">Unit 1: Kotlin basics</string>
     <string name="unit_1_text_pathways">Consist of 4 Pathways</string>
     <string name="unit_1_text_pathways_1">1. Introduction to Kotlin</string>
@@ -16,13 +17,48 @@
     <string name="unit_1_text_pathways_3">3. Build a basic layout</string>
     <string name="unit_1_text_pathways_4">4. Add a button to an app</string>
     <string name="unit_1_text_apps">Apps created in this unit</string>
-    <string name="unit_1_text_apps_1">- Project: Lemonade Apps</string>
+    <string name="unit_1_text_apps_1">- Project: Lemonade App</string>
     <string name="unit_1_button_apps_1">Demo</string>
+    <!--Unit 2 -->
     <string name="unit_2_text_title">Unit 2: Layouts</string>
     <string name="unit_2_text_pathways">Consist of 3 Pathways</string>
     <string name="unit_2_text_pathways_1">1. Get user input in app: Part 1</string>
     <string name="unit_2_text_pathways_2">2. Get user input in app: Part 2</string>
     <string name="unit_2_text_pathways_3">3. Display a Scrollable List</string>
+    <string name="unit_2_text_apps">Apps created in this unit</string>
     <string name="unit_2_text_apps_1">- Project: Dogglers Apps</string>
     <string name="unit_2_button_apps_1">Demo</string>
+    <!-- Unit 3 -->
+    <string name="unit_3_text_title">Unit 3: Navigation</string>
+    <string name="unit_3_text_pathways">Consist of 4 Pathways</string>
+    <string name="unit_3_text_pathways_1">1. Navigate between screens</string>
+    <string name="unit_3_text_pathways_2">2. Introduction to the Navigation Component</string>
+    <string name="unit_3_text_pathways_3">3. Architecture components</string>
+    <string name="unit_3_text_pathways_4">4. Advanced navigation app examples</string>
+    <string name="unit_3_text_apps">Apps created in this unit</string>
+    <string name="unit_3_text_apps_1">- Project: Lunch Tray App</string>
+    <string name="unit_3_button_apps_1">Demo</string>
+    <!-- Unit 4 -->
+    <string name="unit_4_text_title">Unit 4: Connect to the internet</string>
+    <string name="unit_4_text_pathways">Consist of 2 Pathways</string>
+    <string name="unit_4_text_pathways_1">1. Coroutines</string>
+    <string name="unit_4_text_pathways_2">2. Get data from the internet</string>
+    <string name="unit_4_text_apps">Apps created in this unit</string>
+    <string name="unit_4_text_apps_1">- Project: Amphibians App</string>
+    <string name="unit_4_button_apps_1">Demo</string>
+    <!-- Unit 5 -->
+    <string name="unit_5_text_title">Unit 5: Data persistence</string>
+    <string name="unit_5_text_pathways">Consist of 2 Pathways</string>
+    <string name="unit_5_text_pathways_1">1. Introduction to SQL, Room, and Flow</string>
+    <string name="unit_5_text_pathways_2">2. Use Room for data persistence</string>
+    <string name="unit_5_text_apps">Apps created in this unit</string>
+    <string name="unit_5_text_apps_1">- Project: Forage App</string>
+    <string name="unit_5_button_apps_1">Demo</string>
+    <!-- Unit 6 -->
+    <string name="unit_6_text_title">Unit 6: WorkManager</string>
+    <string name="unit_6_text_pathways">Consist of 1 Pathway</string>
+    <string name="unit_6_text_pathways_1">1. Schedule tasks with WorkManager</string>
+    <string name="unit_6_text_apps">Apps created in this unit</string>
+    <string name="unit_6_text_apps_1">- Project: Water Me! App</string>
+    <string name="unit_6_button_apps_1">Demo</string>
 </resources>

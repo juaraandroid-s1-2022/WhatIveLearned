@@ -9,6 +9,7 @@
     <string name="main_page_btn_unit_five">Unit 5: Persistensi data</string>
     <string name="main_page_btn_unit_six">Unit 6: WorkManager</string>
     <string name="main_page_fab_change_locale">Ganti ke Bahasa Inggris</string>
+    <!-- Unit 1 -->
     <string name="unit_1_text_title">Unit 1: Dasar kotlin</string>
     <string name="unit_1_text_pathways">Terdiri dari 4 Bagian</string>
     <string name="unit_1_text_pathways_1">1. Pengantar Kotlin</string>
@@ -18,11 +19,18 @@
     <string name="unit_1_text_apps">Apps yang dibuat dalam unit ini</string>
     <string name="unit_1_text_apps_1">- Proyek: Aplikasi Lemonade</string>
     <string name="unit_1_button_apps_1">Demo</string>
+    <!-- Unit 2 -->
     <string name="unit_2_text_title">Unit 2: Tata Letak</string>
     <string name="unit_2_text_pathways">Terdiri dari 3 Bagian</string>
     <string name="unit_2_text_pathways_1">1. Get user input in app: Part 1</string>
     <string name="unit_2_text_pathways_2">2. Get user input in app: Part 2</string>
     <string name="unit_2_text_pathways_3">3. Display a Scrollable List</string>
+    <string name="unit_2_text_apps">Apps yang dibuat dalam unit ini</string>
     <string name="unit_2_text_apps_1">- Proyek: Aplikasi Dogglers</string>
     <string name="unit_2_button_apps_1">Demo</string>
+    <string name="unit_3_text_title">Unit 3: Navigasi</string>
+    <!-- Unit 3 -->
+    <!-- Unit 4 -->
+    <!-- Unit 5 -->
+    <!-- Unit 6 -->
 </resources>

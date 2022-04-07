@@ -71,7 +71,8 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginTop="36dp"
-        android:text="@string/unit_1_text_apps"
+        android:text="@string/unit_2_text_apps"
+        android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView6" />
@@ -97,6 +98,7 @@
         android:background="@drawable/rounded_button"
         android:text="@string/unit_2_button_apps_1"
         android:textAllCaps="false"
+        android:textColor="#4E342E"
         app:layout_constraintStart_toEndOf="@+id/textView8"
         app:layout_constraintTop_toBottomOf="@+id/textView4" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -39,7 +39,8 @@
             android:layout_marginBottom="8dp"
             android:background="@drawable/rounded_button"
             android:text="@string/main_page_btn_unit_one"
-            android:textAllCaps="false" />
+            android:textAllCaps="false"
+            android:textColor="#4E342E" />
 
         <Button
             android:id="@+id/btnUnitTwo"
@@ -48,7 +49,8 @@
             android:layout_marginBottom="8dp"
             android:background="@drawable/rounded_button"
             android:text="@string/main_page_btn_unit_two"
-            android:textAllCaps="false" />
+            android:textAllCaps="false"
+            android:textColor="#4E342E" />
 
         <Button
             android:id="@+id/btnUnitThree"
@@ -57,7 +59,8 @@
             android:layout_marginBottom="8dp"
             android:background="@drawable/rounded_button"
             android:text="@string/main_page_btn_unit_three"
-            android:textAllCaps="false" />
+            android:textAllCaps="false"
+            android:textColor="#4E342E" />
 
         <Button
             android:id="@+id/btnUnitFour"
@@ -66,7 +69,8 @@
             android:layout_marginBottom="8dp"
             android:background="@drawable/rounded_button"
             android:text="@string/main_page_btn_unit_four"
-            android:textAllCaps="false" />
+            android:textAllCaps="false"
+            android:textColor="#4E342E" />
 
         <Button
             android:id="@+id/btnUnitFive"
@@ -75,7 +79,8 @@
             android:layout_marginBottom="8dp"
             android:background="@drawable/rounded_button"
             android:text="@string/main_page_btn_unit_five"
-            android:textAllCaps="false" />
+            android:textAllCaps="false"
+            android:textColor="#4E342E" />
 
         <Button
             android:id="@+id/btnUnitSix"
@@ -83,7 +88,8 @@
             android:layout_height="wrap_content"
             android:background="@drawable/rounded_button"
             android:text="@string/main_page_btn_unit_six"
-            android:textAllCaps="false" />
+            android:textAllCaps="false"
+            android:textColor="#4E342E" />
     </LinearLayout>
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
