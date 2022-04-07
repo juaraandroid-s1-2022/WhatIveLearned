@@ -9,10 +9,41 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.WhatIveLearned">
+        <!-- Dogglers -->
+        <activity
+            android:name=".dogglers.VerticalListActivity"
+            android:theme="@style/Theme.Dogglers"
+            android:exported="false">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="dogglers.MainActivity" />
+        </activity>
+        <activity
+            android:name=".dogglers.HorizontalListActivity"
+            android:theme="@style/Theme.Dogglers"
+            android:exported="false">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="dogglers.MainActivity" />
+        </activity>
+        <activity
+            android:name=".dogglers.GridListActivity"
+            android:theme="@style/Theme.Dogglers"
+            android:exported="false">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="dogglers.MainActivity" />
+        </activity>
+        <activity
+            android:name=".dogglers.MainActivity"
+            android:theme="@style/Theme.Dogglers"
+            android:exported="false" />
+        <!-- Lemonade -->
         <activity
             android:name=".lemonade.MainActivity"
-            android:theme="@style/Theme.Lemonade"
-            android:exported="false" />
+            android:exported="false"
+            android:theme="@style/Theme.Lemonade" />
+        <!-- My App -->
         <activity
             android:name=".Unit6"
             android:exported="false" />

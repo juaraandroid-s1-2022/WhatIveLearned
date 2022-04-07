@@ -17,7 +17,8 @@
     <string name="unit_1_text_pathways_3">3. Membuat sebuah tata letak dasar</string>
     <string name="unit_1_text_pathways_4">4. Menambahkan tombol ke aplikasi</string>
     <string name="unit_1_text_apps">Apps yang dibuat dalam unit ini</string>
-    <string name="unit_1_text_apps_1">- Proyek: Aplikasi Lemonade</string>
+    <string name="unit_1_text_apps_1">- Aplikasi: Dice Roller</string>
+    <string name="unit_1_text_apps_2">- Proyek: Aplikasi Lemonade</string>
     <string name="unit_1_button_apps_1">Demo</string>
     <!-- Unit 2 -->
     <string name="unit_2_text_title">Unit 2: Tata Letak</string>
@@ -26,7 +27,8 @@
     <string name="unit_2_text_pathways_2">2. Get user input in app: Part 2</string>
     <string name="unit_2_text_pathways_3">3. Display a Scrollable List</string>
     <string name="unit_2_text_apps">Apps yang dibuat dalam unit ini</string>
-    <string name="unit_2_text_apps_1">- Proyek: Aplikasi Dogglers</string>
+    <string name="unit_2_text_apps_1">- Aplikasi: Tip Time</string>
+    <string name="unit_2_text_apps_2">- Project: Dogglers Apps</string>
     <string name="unit_2_button_apps_1">Demo</string>
     <!-- Unit 3 -->
     <string name="unit_3_text_title">Unit 3: Navigasi</string>
