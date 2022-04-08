@@ -38,7 +38,10 @@
     <string name="unit_3_text_pathways_3">3. Architecture components</string>
     <string name="unit_3_text_pathways_4">4. Advanced navigation app examples</string>
     <string name="unit_3_text_apps">Apps created in this unit</string>
-    <string name="unit_3_text_apps_1">- Project: Lunch Tray App</string>
+    <string name="unit_3_text_apps_1">- Apps: Words</string>
+    <string name="unit_3_text_apps_2">- Apps: DessertClicker</string>
+    <string name="unit_3_text_apps_3">- Project: Lunch Tray App</string>
+    <string name="unit_3_text_apps_4">- Apps: Unscramble</string>
     <string name="unit_3_button_apps_1">Demo</string>
     <!-- Unit 4 -->
     <string name="unit_4_text_title">Unit 4: Connect to the internet</string>

@@ -38,7 +38,10 @@
     <string name="unit_3_text_pathways_3">3. Arsitektur komponen</string>
     <string name="unit_3_text_pathways_4">4. Contoh aplikasi Navigasi lanjutan</string>
     <string name="unit_3_text_apps">Apps yang dibuat dalam unit ini</string>
-    <string name="unit_3_text_apps_1">- Proyek: Aplikasi Lunch Tray</string>
+    <string name="unit_3_text_apps_1">- Aplikasi: Words</string>
+    <string name="unit_3_text_apps_2">- Aplikasi: DessertClicker</string>
+    <string name="unit_3_text_apps_3">- Proyek: Aplikasi Lunch Tray</string>
+    <string name="unit_3_text_apps_4">- Aplikasi: Unscramble</string>
     <string name="unit_3_button_apps_1">Demo</string>
     <!-- Unit 4 -->
     <string name="unit_4_text_title">Unit 4: Terhubung dengan internet</string>
