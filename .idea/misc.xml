@@ -4,11 +4,14 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Development/Workspaces/WhatIveLearned/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.196" />
+        <entry key="..\:/Development/Workspaces/WhatIveLearned/app/src/main/res/drawable/ic_dashboard_black_24dp.xml" value="0.2635" />
         <entry key="..\:/Development/Workspaces/WhatIveLearned/app/src/main/res/drawable/ic_launcher_background.xml" value="0.196" />
         <entry key="..\:/Development/Workspaces/WhatIveLearned/app/src/main/res/drawable/ic_launcher_dogglers_background.xml" value="0.349" />
         <entry key="..\:/Development/Workspaces/WhatIveLearned/app/src/main/res/drawable/ic_launcher_dogglers_foreground.xml" value="0.349" />
         <entry key="..\:/Development/Workspaces/WhatIveLearned/app/src/main/res/drawable/ic_launcher_lemonade_background.xml" value="0.196" />
         <entry key="..\:/Development/Workspaces/WhatIveLearned/app/src/main/res/drawable/ic_launcher_lemonade_foreground.xml" value="0.196" />
+        <entry key="..\:/Development/Workspaces/WhatIveLearned/app/src/main/res/drawable/ic_launcher_lunchtray_background.xml" value="0.2635" />
+        <entry key="..\:/Development/Workspaces/WhatIveLearned/app/src/main/res/drawable/ic_launcher_lunchtray_foreground.xml" value="0.2635" />
         <entry key="..\:/Development/Workspaces/WhatIveLearned/app/src/main/res/drawable/lemon_drink.xml" value="0.196" />
         <entry key="..\:/Development/Workspaces/WhatIveLearned/app/src/main/res/drawable/lemon_restart.xml" value="0.349" />
         <entry key="..\:/Development/Workspaces/WhatIveLearned/app/src/main/res/drawable/lemon_tree.xml" value="0.349" />
@@ -18,6 +21,7 @@
         <entry key="..\:/Development/Workspaces/WhatIveLearned/app/src/main/res/layout/activity_main.xml" value="0.33" />
         <entry key="..\:/Development/Workspaces/WhatIveLearned/app/src/main/res/layout/activity_main_dogglers.xml" value="0.36666666666666664" />
         <entry key="..\:/Development/Workspaces/WhatIveLearned/app/src/main/res/layout/activity_main_lemonade.xml" value="0.17831813576494426" />
+        <entry key="..\:/Development/Workspaces/WhatIveLearned/app/src/main/res/layout/activity_main_lunch_tray.xml" value="0.25833333333333336" />
         <entry key="..\:/Development/Workspaces/WhatIveLearned/app/src/main/res/layout/activity_unit1.xml" value="0.33" />
         <entry key="..\:/Development/Workspaces/WhatIveLearned/app/src/main/res/layout/activity_unit2.xml" value="0.36666666666666664" />
         <entry key="..\:/Development/Workspaces/WhatIveLearned/app/src/main/res/layout/activity_unit3.xml" value="0.36666666666666664" />

@@ -9,35 +9,40 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.WhatIveLearned">
+        <!-- Lunch Tray -->
+        <activity
+            android:name=".lunchtray.MainActivity"
+            android:label="@string/app_name_lunch_tray"
+            android:theme="@style/Theme.LunchTray" />
         <!-- Dogglers -->
         <activity
             android:name=".dogglers.VerticalListActivity"
-            android:theme="@style/Theme.Dogglers"
-            android:exported="false">
+            android:exported="false"
+            android:theme="@style/Theme.Dogglers">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".dogglers.MainActivity" />
         </activity>
         <activity
             android:name=".dogglers.HorizontalListActivity"
-            android:theme="@style/Theme.Dogglers"
-            android:exported="false">
+            android:exported="false"
+            android:theme="@style/Theme.Dogglers">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".dogglers.MainActivity" />
         </activity>
         <activity
             android:name=".dogglers.GridListActivity"
-            android:theme="@style/Theme.Dogglers"
-            android:exported="false">
+            android:exported="false"
+            android:theme="@style/Theme.Dogglers">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".dogglers.MainActivity" />
         </activity>
         <activity
             android:name=".dogglers.MainActivity"
-            android:theme="@style/Theme.Dogglers"
-            android:exported="false" />
+            android:exported="false"
+            android:theme="@style/Theme.Dogglers" />
         <!-- Lemonade -->
         <activity
             android:name=".lemonade.MainActivity"
@@ -67,7 +72,6 @@
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>

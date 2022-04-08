@@ -132,9 +132,21 @@
         android:layout_marginTop="8dp"
         android:paddingTop="8dp"
         android:paddingBottom="8dp"
-        android:text="@string/unit_3_text_apps_3"
+        android:text="@string/unit_3_text_apps_5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:text="@string/unit_3_text_apps_3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView11" />
 
     <Button
         android:id="@+id/button"
@@ -146,6 +158,6 @@
         android:text="@string/unit_3_button_apps_1"
         android:textAllCaps="false"
         android:textColor="#4E342E"
-        app:layout_constraintStart_toEndOf="@+id/textView11"
-        app:layout_constraintTop_toBottomOf="@+id/textView10" />
+        app:layout_constraintStart_toEndOf="@+id/textView12"
+        app:layout_constraintTop_toBottomOf="@+id/textView11" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -42,6 +42,7 @@
     <string name="unit_3_text_apps_2">- Apps: DessertClicker</string>
     <string name="unit_3_text_apps_3">- Project: Lunch Tray App</string>
     <string name="unit_3_text_apps_4">- Apps: Unscramble</string>
+    <string name="unit_3_text_apps_5">- Apps: Cupcake</string>
     <string name="unit_3_button_apps_1">Demo</string>
     <!-- Unit 4 -->
     <string name="unit_4_text_title">Unit 4: Connect to the internet</string>
@@ -81,4 +82,20 @@
     <string name="vertical" translatable="false">Vertical</string>
     <string name="horizontal" translatable="false">Horizontal</string>
     <string name="grid" translatable="false">Grid</string>
+    <!-- Project: Lunch Tray -->
+    <string name="app_name_lunch_tray" translatable="false">Lunch Tray</string>
+    <string name="tile_start_order" translatable="false">Order</string>
+    <string name="title_coupons" translatable="false">Coupons</string>
+    <string name="title_entree_menu" translatable="false">Entrees</string>
+    <string name="title_side_menu" translatable="false">Sides</string>
+    <string name="title_accompaniment_menu" translatable="false">Accompaniments</string>
+    <string name="title_checkout" translatable="false">Checkout</string>
+    <string name="start_order" translatable="false">Start Order</string>
+    <string name="subtotal" translatable="false">Subtotal: %s</string>
+    <string name="tax" translatable="false">Tax: %s</string>
+    <string name="total" translatable="false">Total: %s</string>
+    <string name="next" translatable="false">Next</string>
+    <string name="order_summary" translatable="false">Order Summary</string>
+    <string name="submit" translatable="false">Submit Order</string>
+    <string name="submit_order" translatable="false">Order Submitted!</string>
 </resources>
