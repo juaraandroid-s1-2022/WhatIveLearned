@@ -16,7 +16,7 @@
             android:exported="false">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="dogglers.MainActivity" />
+                android:value=".dogglers.MainActivity" />
         </activity>
         <activity
             android:name=".dogglers.HorizontalListActivity"
@@ -24,7 +24,7 @@
             android:exported="false">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="dogglers.MainActivity" />
+                android:value=".dogglers.MainActivity" />
         </activity>
         <activity
             android:name=".dogglers.GridListActivity"
@@ -32,7 +32,7 @@
             android:exported="false">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="dogglers.MainActivity" />
+                android:value=".dogglers.MainActivity" />
         </activity>
         <activity
             android:name=".dogglers.MainActivity"

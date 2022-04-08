@@ -17,6 +17,7 @@ package dev.witheredflowers.whativelearned.dogglers
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import dev.witheredflowers.whativelearned.R
 import dev.witheredflowers.whativelearned.databinding.ActivityHorizontalListBinding
 import dev.witheredflowers.whativelearned.dogglers.adapter.DogCardAdapter
 import dev.witheredflowers.whativelearned.dogglers.const.Layout
@@ -40,5 +41,8 @@ class HorizontalListActivity : AppCompatActivity() {
 		
 		// Enable up button for backward navigation
 		supportActionBar?.setDisplayHomeAsUpEnabled(true)
+		
+		// Change ActionBar title according to locale
+		supportActionBar?.setTitle(R.string.app_name_dogglers)
 	}
 }
