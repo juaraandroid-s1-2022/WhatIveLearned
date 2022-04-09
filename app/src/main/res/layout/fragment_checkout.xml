@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!--
+<?xml version="1.0" encoding="utf-8"?><!--
   ~ Copyright (C) 2021 The Android Open Source Project.
   ~
   ~ Licensed under the Apache License, Version 2.0 (the "License");
@@ -14,14 +13,23 @@
   ~ See the License for the specific language governing permissions and
   ~ limitations under the License.
   -->
-<layout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/layout_checkout"
     tools:context=".lunchtray.ui.order.CheckoutFragment">
 
-    <!-- TODO: Add the data binding variables of the type OrderViewModel and the CheckoutFragment -->
+    <!-- Add the data binding variables of the type OrderViewModel and the CheckoutFragment -->
+    <data>
+
+        <variable
+            name="viewModel"
+            type="dev.witheredflowers.whativelearned.lunchtray.model.OrderViewModel" />
+
+        <variable
+            name="checkoutMenuFragment"
+            type="dev.witheredflowers.whativelearned.lunchtray.ui.order.CheckoutFragment" />
+    </data>
 
     <ScrollView
         android:layout_width="match_parent"
@@ -37,7 +45,7 @@
                 style="@style/Widget.LunchTray.TextView.CheckoutItem.Label"
                 android:text="@string/order_summary"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"/>
+                app:layout_constraintTop_toTopOf="parent" />
 
             <!-- TODO: display the entree name based on the entree selection -->
             <TextView
@@ -53,7 +61,7 @@
                 style="@style/Widget.LunchTray.TextView.CheckoutItem.Info"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="@id/entree_selection"
-                tools:text="$7.00"/>
+                tools:text="$7.00" />
 
             <!-- TODO: display the side name based on the side selection -->
             <TextView
@@ -69,7 +77,7 @@
                 style="@style/Widget.LunchTray.TextView.CheckoutItem.Info"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="@id/side_selection"
-                tools:text="$2.00"/>
+                tools:text="$2.00" />
 
             <!-- TODO: display the accompaniment name based on the accompaniment selection -->
             <TextView
@@ -85,7 +93,7 @@
                 style="@style/Widget.LunchTray.TextView.CheckoutItem.Info"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="@id/accompaniment_selection"
-                tools:text="$1.00"/>
+                tools:text="$1.00" />
 
             <View
                 android:id="@+id/divider"
@@ -101,7 +109,7 @@
                 style="@style/Widget.LunchTray.TextView.Subtotal"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/divider"
-                tools:text="Subtotal: $10.00"/>
+                tools:text="Subtotal: $10.00" />
 
             <!-- TODO: set the text to the current tax value from the view model -->
             <TextView
@@ -110,7 +118,7 @@
                 android:layout_marginTop="0dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/subtotal"
-                tools:text="Tax: $0.73"/>
+                tools:text="Tax: $0.73" />
 
             <!-- TODO: set the text to the current total value from the view model -->
             <TextView
@@ -121,30 +129,32 @@
                 android:textAppearance="?attr/textAppearanceHeadline6"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/tax"
-                tools:text="Total: $10.73"/>
+                tools:text="Total: $10.73" />
 
-            <!-- TODO: submit the order when clicked -->
+            <!-- submit the order when clicked -->
             <Button
                 android:id="@+id/submit_button"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/side_margin"
+                android:onClick="@{() -> checkoutMenuFragment.submitOrder()}"
                 android:text="@string/submit"
-                app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/total"/>
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/total" />
 
-            <!-- TODO: cancel the order when clicked -->
+            <!-- cancel the order when clicked -->
             <Button
                 android:id="@+id/cancel_button"
                 style="?attr/materialButtonOutlinedStyle"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/base_margin"
+                android:onClick="@{() -> checkoutMenuFragment.cancelOrder()}"
                 android:text="@string/cancel"
-                app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/submit_button"/>
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/submit_button" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
     </ScrollView>

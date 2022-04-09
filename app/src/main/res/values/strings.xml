@@ -84,7 +84,7 @@
     <string name="grid" translatable="false">Grid</string>
     <!-- Project: Lunch Tray -->
     <string name="app_name_lunch_tray" translatable="false">Lunch Tray</string>
-    <string name="tile_start_order" translatable="false">Order</string>
+    <string name="title_start_order" translatable="false">Order</string>
     <string name="title_coupons" translatable="false">Coupons</string>
     <string name="title_entree_menu" translatable="false">Entrees</string>
     <string name="title_side_menu" translatable="false">Sides</string>

@@ -18,21 +18,36 @@ package dev.witheredflowers.whativelearned.lunchtray
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.NavController
+import androidx.navigation.fragment.NavHostFragment
+import androidx.navigation.ui.setupActionBarWithNavController
+import dev.witheredflowers.whativelearned.R
 import dev.witheredflowers.whativelearned.databinding.ActivityMainLunchTrayBinding
 
 class MainActivity : AppCompatActivity() {
-	
-	// Binding object instance corresponding to the activity_main.xml layout
-	// when the view hierarchy is attached to the fragment.
-	private lateinit var binding: ActivityMainLunchTrayBinding
-	private lateinit var navController: NavController
-	
-	override fun onCreate(savedInstanceState: Bundle?) {
-		super.onCreate(savedInstanceState)
-		
-		binding = ActivityMainLunchTrayBinding.inflate(layoutInflater)
-		setContentView(binding.root)
-		
-		// TODO: Retrieve NavController from the NavHostFragment
-	}
+
+    // Binding object instance corresponding to the activity_main.xml layout
+    // when the view hierarchy is attached to the fragment.
+    private lateinit var binding: ActivityMainLunchTrayBinding
+    private lateinit var navController: NavController
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+
+        binding = ActivityMainLunchTrayBinding.inflate(layoutInflater)
+        setContentView(binding.root)
+
+        // Retrieve NavController from the NavHostFragment
+        val navHostFragment =
+            supportFragmentManager.findFragmentById(R.id.navHostFragment) as NavHostFragment
+        navController = navHostFragment.navController
+
+        // setup action bar for navController
+        setupActionBarWithNavController(navController)
+    }
+
+    // Handle navigation when the user choose Up
+    override fun onSupportNavigateUp(): Boolean {
+        // return super.onSupportNavigateUp()
+        return navController.navigateUp() || super.onSupportNavigateUp()
+    }
 }
