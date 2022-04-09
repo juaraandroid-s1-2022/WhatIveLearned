@@ -50,11 +50,12 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent">
 
-                <!-- TODO: set the side in the view model when the RadioButton is clicked -->
+                <!-- set the side in the view model when the RadioButton is clicked -->
                 <RadioButton
                     android:id="@+id/salad"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:onClick='@{() -> viewModel.setSide("salad")}'
                     android:text='@{viewModel.menuItems["salad"].name}'
                     android:textAppearance="?attr/textAppearanceBody1"
                     tools:text="Side 1" />
@@ -80,11 +81,12 @@
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@id/salad_description" />
 
-                <!-- TODO: set the side in the view model when the RadioButton is clicked -->
+                <!-- set the side in the view model when the RadioButton is clicked -->
                 <RadioButton
                     android:id="@+id/soup"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:onClick='@{() -> viewModel.setSide("soup")}'
                     android:text='@{viewModel.menuItems["soup"].name}'
                     android:textAppearance="?attr/textAppearanceBody1"
                     tools:text="Side 2" />
@@ -111,11 +113,12 @@
                     app:layout_constraintTop_toBottomOf="@id/soup_description" />
 
 
-                <!-- TODO: set the side in the view model when the RadioButton is clicked -->
+                <!-- set the side in the view model when the RadioButton is clicked -->
                 <RadioButton
                     android:id="@+id/potatoes"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:onClick='@{() -> viewModel.setSide("potatoes")}'
                     android:text='@{viewModel.menuItems["potatoes"].name}'
                     android:textAppearance="?attr/textAppearanceBody1"
                     tools:text="Side 3" />
@@ -141,11 +144,12 @@
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@id/potato_description" />
 
-                <!-- TODO: set the side in the view model when the RadioButton is clicked -->
+                <!-- set the side in the view model when the RadioButton is clicked -->
                 <RadioButton
                     android:id="@+id/rice"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:onClick='@{() -> viewModel.setSide("rice")}'
                     android:text='@{viewModel.menuItems["rice"].name}'
                     android:textAppearance="?attr/textAppearanceBody1"
                     tools:text="Side 4" />
@@ -175,10 +179,11 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/side_options" />
 
-            <!-- TODO: set the text to the current subtotal value from the view model -->
+            <!-- set the text to the current subtotal value from the view model -->
             <TextView
                 android:id="@+id/subtotal"
                 style="@style/Widget.LunchTray.TextView.Subtotal"
+                android:text="@{@string/subtotal(viewModel.subtotal)}"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/divider"
                 tools:text="Subtotal $5.00" />
