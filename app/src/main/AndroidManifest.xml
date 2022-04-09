@@ -9,12 +9,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.WhatIveLearned">
+        <activity
+            android:name=".NotYetImplementedActivity"
+            android:exported="false" />
         <!-- Lunch Tray -->
         <activity
             android:name=".lunchtray.MainActivity"
             android:label="@string/app_name_lunch_tray"
-            android:theme="@style/Theme.LunchTray" />
-        <!-- Dogglers -->
+            android:theme="@style/Theme.LunchTray" /> <!-- Dogglers -->
         <activity
             android:name=".dogglers.VerticalListActivity"
             android:exported="false"
@@ -42,13 +44,11 @@
         <activity
             android:name=".dogglers.MainActivity"
             android:exported="false"
-            android:theme="@style/Theme.Dogglers" />
-        <!-- Lemonade -->
+            android:theme="@style/Theme.Dogglers" /> <!-- Lemonade -->
         <activity
             android:name=".lemonade.MainActivity"
             android:exported="false"
-            android:theme="@style/Theme.Lemonade" />
-        <!-- My App -->
+            android:theme="@style/Theme.Lemonade" /> <!-- My App -->
         <activity
             android:name=".Unit6"
             android:exported="false" />
@@ -72,6 +72,7 @@
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>

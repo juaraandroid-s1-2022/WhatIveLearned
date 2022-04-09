@@ -67,4 +67,6 @@
     <string name="unit_6_text_apps">Apps yang dibuat dalam unit ini</string>
     <string name="unit_6_text_apps_1">- Proyek: Aplikasi Water Me!</string>
     <string name="unit_6_button_apps_1">Demo</string>
+    <!-- Not yet implemented -->
+    <string name="not_yet_implemented">Maaf, halaman ini belum diimplementasikan, mohon menunggu release berikutnya yah 😉</string>
 </resources>

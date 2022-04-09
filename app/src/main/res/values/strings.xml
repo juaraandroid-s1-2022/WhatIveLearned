@@ -98,4 +98,6 @@
     <string name="order_summary" translatable="false">Order Summary</string>
     <string name="submit" translatable="false">Submit Order</string>
     <string name="submit_order" translatable="false">Order Submitted!</string>
+    <!-- Not yet implemented -->
+    <string name="not_yet_implemented">Sorry, this page is not implemented yet, please wait for the future release 😉</string>
 </resources>
